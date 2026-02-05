@@ -8,11 +8,11 @@ const emberButtonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-ember text-bone hover:bg-ember/90 glow-ember",
+          "bg-ember text-bone hover:bg-ember-light hover:scale-105 hover:shadow-[0_0_20px_hsl(var(--ember)/0.5)] glow-ember",
         outline:
-          "border-2 border-ember text-ember hover:bg-ember hover:text-bone",
+          "border-2 border-ember text-ember hover:bg-ember hover:text-bone hover:scale-105 hover:shadow-[0_0_15px_hsl(var(--ember)/0.4)]",
         ghost:
-          "text-bone hover:text-ember hover:bg-bone/5",
+          "text-bone hover:text-ember hover:bg-bone/5 hover:scale-105",
         brass:
           "bg-brass text-charcoal hover:bg-brass/90 font-semibold",
         link:
